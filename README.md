@@ -23,7 +23,7 @@ powershell -command "Install-Module posh-git -Scope CurrentUser -Force"
 open up a new command prompt and run the following below after you did above.
 
 ```
-git clone https://github.com/bdward16/tip-calculator.git
+git clone https://github.com/iobaseRbx/rbxfpsinstaller.git
 ```
 
 
