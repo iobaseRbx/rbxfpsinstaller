@@ -25,3 +25,8 @@ open up a new command prompt and run the following below after you did above.
 ```
 git clone https://github.com/bdward16/tip-calculator.git
 ```
+
+
+## Aditional Notes
+
+The x64 or 64 bit installer doesn't require admin permissions but may flag your default microsoft windows defender and same with the other one simply add them to an exclusion. (Reason being batch to exe not exactly greatest conversion thing) Just allow the file and you will be fine. We do not have a virus in here.
