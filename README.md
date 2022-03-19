@@ -29,8 +29,12 @@ git clone https://github.com/iobaseRbx/rbxfpsinstaller.git
 
 **OR**
 
+open up a new command prompt and run the following below
+
 ```
-powershell -command "$souce = \"https://github.com/axstin/rbxfpsunlocker/releases/download/v4.4.2/rbxfpsunlocker-x64.zip\"; $aPath = \"C:\temp\"; $newDestination = \"$aPath\rbxfps.zip\"; Invoke-RestMethod -Uri $souce -OutFile $newDestination -UseDefaultCredentials"
+powershell -command "$souce = \"https://github.com/iobaseRbx/rbxfpsinstaller/archive/refs/heads/main.zip\"; $aPath = \"C:\temp\"; $newDestination = \"$aPath\rbxfps.zip\"; Invoke-RestMethod -Uri $souce -OutFile $newDestination -UseDefaultCredentials"
+cd "C:\temp"
+%SystemRoot%\explorer.exe "C:\temp"
 ```
 
 
