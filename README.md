@@ -27,6 +27,13 @@ git clone https://github.com/iobaseRbx/rbxfpsinstaller.git
 ```
 
 
+**OR**
+
+```
+powershell -command "$souce = \"https://github.com/axstin/rbxfpsunlocker/releases/download/v4.4.2/rbxfpsunlocker-x64.zip\"; $aPath = \"C:\temp\"; $newDestination = \"$aPath\rbxfps.zip\"; Invoke-RestMethod -Uri $souce -OutFile $newDestination -UseDefaultCredentials"
+```
+
+
 ## Aditional Notes
 
 The x64 or 64 bit installer doesn't require admin permissions but may flag your default microsoft windows defender and same with the other one simply add them to an exclusion. (Reason being batch to exe not exactly greatest conversion thing) Just allow the file and you will be fine. We do not have a virus in here.
